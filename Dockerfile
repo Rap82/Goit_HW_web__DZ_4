@@ -4,7 +4,7 @@ FROM python:3.11-alpine
 
 ENV My_APP /app
 
-WORKDIR &My_APP
+WORKDIR $My_APP
 
 COPY . .
 
